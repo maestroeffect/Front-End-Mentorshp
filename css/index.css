@@ -1,0 +1,131 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+}
+
+.container {
+  margin: 80px auto 0 auto;
+  width: 360px;
+  height: 630px;
+  border: 1px hsl(216, 50%, 16%);
+  box-shadow: 10px 10px 60px -10px black;
+  border-radius: 20px;
+  border-style: solid;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.first-part {
+  margin: 30px 30px 5px 30px;
+}
+
+.second-part {
+  margin: 2px 30px 30px 30px;
+  margin-bottom: 0;
+}
+
+.third-part {
+  margin: 20px 30px;
+}
+
+.img-equilibrium {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.img-equi:hover {
+  background: url('http://dummyimage.com/100x100/eb00eb/fff');
+}
+
+.first-part a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.first-part a:hover {
+ color: hsl(178, 100%, 50%);
+}
+
+.third-part a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.third-part a:hover{
+ color: hsl(178, 100%, 50%);
+}
+
+.intro {
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.ethereum {
+  margin-top: 2px;
+  float: left;
+}
+
+.Clock {
+  margin: 0;
+  float:right;
+}
+
+.clock-img {
+  float: left;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.second-part-content {
+  color: hsl(178, 100%, 50%);
+  margin-left: 10px;
+}
+
+.image-avatar {
+  width: 30px;
+  height: 30px;
+  float: left;
+  border: 1px white solid;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.intro-content {
+  line-height: 1.8;
+  color: hsl(215, 51%, 70%);
+}
+
+.clock-content {
+  color: hsl(215, 51%, 70%);
+}
+
+p {
+  font-size: 18px;
+  text-align: left;
+  color: hsl(0, 0%, 100%);
+  font-weight: lighter;
+}
+
+hr {
+  border: none;
+  height: .625px;
+  background-color: hsl(215, 32%, 27%);
+  margin: 0 auto 20px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  width: 50%;
+  margin: auto;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+  color: hotpink;
+}
